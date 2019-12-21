@@ -1,7 +1,30 @@
+body {
+    font-family: 'Playfair Display', serif;
+}
+
 .name, .menu {
     min-height: 80px;
-    background-color: azure;
-    border: 1px solid black;
+}
+
+.name {
+    display: flex;
+}
+
+h1 {
+    font-size: 30px;
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-item {
+    margin: auto;
+}
+
+.menu-item p {
+    margin: 0;
 }
 
 .main-wrapper {
