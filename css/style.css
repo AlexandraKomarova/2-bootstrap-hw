@@ -2,8 +2,12 @@ body {
     font-family: 'Playfair Display', serif;
 }
 
-.name, .menu {
+.name {
     min-height: 80px;
+}
+
+.menu {
+    min-height: 50px;
 }
 
 .name {
@@ -29,11 +33,26 @@ h1 {
 
 .main-wrapper {
     width: 90%;
-    margin: 5% auto 0;
+    margin: 0 auto;
 }
 
 .about-me {
-    min-height: 80px;
-    background-color: azure;
-    border: 1px solid black;
+    min-height: 60px;
+}
+
+.about-me p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.image img {
+    width: 100%;
+}
+
+.text {
+     margin-top: 4%;
+}
+
+.text p {
+    margin-bottom: 0.5rem;
 }
