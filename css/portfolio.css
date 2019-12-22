@@ -21,7 +21,21 @@
     margin: 0 auto;
 }
 
+.description, .site-link {
+    display: flex;
+}
+
+.description p {
+    margin: auto;
+    padding: 5px;
+}
+
 .site-link a {
     color: black;
+    
+}
+
+.site-link p {
+    margin: auto;
 }
 
