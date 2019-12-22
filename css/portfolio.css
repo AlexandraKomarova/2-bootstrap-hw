@@ -1,0 +1,27 @@
+.portfolio-img-wrapper {
+    min-height: 60vh;
+}
+
+.portfolio-img img {
+    width: 100%;
+}
+
+.sasha {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.alyona {
+    width: 92%;
+    margin: 0 auto;
+}
+
+.great-blue {
+    width: 83%;
+    margin: 0 auto;
+}
+
+.site-link a {
+    color: black;
+}
+
