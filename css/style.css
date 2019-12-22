@@ -19,22 +19,15 @@ h1 {
     margin: auto;
 }
 
-.menu {
-    display: flex;
-}
-
 .menu-item {
-    margin: auto;
-}
-
-.menu-item p {
-    margin: 0;
+    margin: 10px;
 }
 
 .main-wrapper {
     width: 90%;
     margin: 0 auto;
-    
+    /* min-height: 85vh; */
+    position: relative;
 }
 
 .about-me {
@@ -62,6 +55,9 @@ h1 {
 .footer {
     min-height: 80px;
     margin-top: 7vh;
+    /* background-color: blanchedalmond; */
+    /* position: absolute;
+    bottom: 0; */
 }
 
 #copyright {
