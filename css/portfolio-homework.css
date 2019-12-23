@@ -1,0 +1,60 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+    background-color: rgb(165, 7, 7);
+    color: white;
+    padding: 15px;
+    font-size: 23px;
+}
+
+.portfolio-img {
+    position: relative;
+    margin: 5%;
+}
+
+.description {
+    height: 25%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    bottom: 3%;
+}
+
+.description p {
+    color: white;
+    padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+    
+    h1 {
+        margin-left: 24%;
+    }
+
+    .main-header p {
+        margin-left: 2.5%;
+    }
+
+    .menu {
+        align-items: center;
+    }
+
+    .menu-item {
+        margin-bottom: 0;
+    }
+
+    .menu-item p {
+        margin-bottom: 0;
+    }
+
+    .main-wrapper {
+        width: 70%;
+        margin-left: 9.5%;
+    }
+
+    .portfolio-img-wrapper {
+        width: 70%;
+    }
+  }
